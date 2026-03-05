@@ -32,6 +32,8 @@ print(type({9.8,3.14,2.7}))     # set
 print(type((9.8,3.14,2.7)))     # tuple
 
 # Euclidean distance between (2,3) and (10,8)
-print(((2-10)**2)+((3-8)**2))
+x1, y1 = 2, 3
+x2, y2 = 10, 8
+print(((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5)
 
 
